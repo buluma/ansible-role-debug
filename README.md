@@ -4,7 +4,7 @@ Show variable per host.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-debug/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-debug/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-debug/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-debug)|[![quality](https://img.shields.io/ansible/quality/43591)](https://galaxy.ansible.com/buluma/debug)|[![downloads](https://img.shields.io/ansible/role/d/43591)](https://galaxy.ansible.com/buluma/debug)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-debug.svg)](https://github.com/buluma/ansible-role-debug/releases/)|
+|[![github](https://github.com/buluma/ansible-role-debug/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-debug/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-debug/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-debug)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/debug)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/debug)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-debug.svg)](https://github.com/buluma/ansible-role-debug/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -32,7 +32,6 @@ The machine needs to be prepared. In CI this is done using `molecule/default/pre
     - role: buluma.bootstrap
 ```
 
-Also see a [full explanation and example](https://buluma.nl/how-to-use-these-roles.html) on how to use these roles.
 
 
 ## [Requirements](#requirements)
@@ -48,6 +47,8 @@ The following roles are used to prepare a system. You can prepare your system in
 |[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-bootstrap)|
 
 ## [Context](#context)
+
+This role is a part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.nl/) for further information.
 
 Here is an overview of related roles:
 ![dependencies](https://raw.githubusercontent.com/buluma/ansible-role-debug/png/requirements.png "Dependencies")

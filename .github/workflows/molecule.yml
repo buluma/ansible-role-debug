@@ -7,9 +7,11 @@ name: Ansible Molecule
 
 on:
   push:
+    tags_ignore:
+      - '*'
   pull_request:
   schedule:
-    - cron: '7 2,10 * * *'
+    - cron: '7 4 4 * *'
 
 jobs:
   lint:
@@ -34,25 +36,21 @@ jobs:
           - image: "alpine"
             tag: "latest"
           - image: "amazonlinux"
-            tag: "2"
+            tag: "latest"
+          - image: "enterpriselinux"
+            tag: "latest"
           - image: "debian"
-            tag: "bookworm"
+            tag: "latest"
           - image: "fedora"
             tag: "34"
           - image: "fedora"
             tag: "latest"
           - image: "fedora"
             tag: "rawhide"
-          - image: "debian"
-            tag: "bullseye"
+          - image: "opensuse"
+            tag: "latest"
           - image: "ubuntu"
             tag: "bionic"
-          - image: "oraclelinux"
-            tag: "8"
-          - image: "oraclelinux"
-            tag: "7"
-          - image: "docker-opensuse-systemd"
-            tag: "latest"
     steps:
       - name: checkout
         uses: actions/checkout@v2
