@@ -4,7 +4,7 @@ Show variable per host.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-debug/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-debug/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-debug/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-debug)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/debug)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/debug)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-debug.svg)](https://github.com/buluma/ansible-role-debug/releases/)|
+|[![github](https://github.com/buluma/ansible-role-debug/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-debug/actions)|[![pipeline status](https://gitlab.com/buluma/ansible-role-debug/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-debug/-/commits/main)|[![quality](https://img.shields.io/ansible/quality/57826)](https://galaxy.ansible.com/buluma/dns)|![Ansible Role](https://img.shields.io/ansible/role/d/57826)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-debug.svg)](https://github.com/buluma/ansible-role-debug/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
