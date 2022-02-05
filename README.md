@@ -4,7 +4,7 @@ Show variable per host.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-debug/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-debug/actions)|[![pipeline status](https://gitlab.com/buluma/ansible-role-debug/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-debug/-/commits/main)|[![quality](https://img.shields.io/ansible/quality/57826)](https://galaxy.ansible.com/buluma/dns)|![Ansible Role](https://img.shields.io/ansible/role/d/57826)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-debug.svg)](https://github.com/buluma/ansible-role-debug/releases/)|
+|[![github](https://github.com/buluma/ansible-role-debug/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-debug/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-debug/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-debug)|[![quality](https://img.shields.io/ansible/quality/57826)](https://galaxy.ansible.com/buluma/debug)|[![downloads](https://img.shields.io/ansible/role/d/57826)](https://galaxy.ansible.com/buluma/debug)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-debug.svg)](https://github.com/buluma/ansible-role-debug/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -36,7 +36,7 @@ The machine needs to be prepared. In CI this is done using `molecule/default/pre
 
 ## [Requirements](#requirements)
 
-- pip packages listed in [requirements.txt](https://github.com/buluma/ansible-role-debug/blob/master/requirements.txt).
+- pip packages listed in [requirements.txt](https://github.com/buluma/ansible-role-debug/blob/main/requirements.txt).
 
 ## [Status of used roles](#status-of-requirements)
 
@@ -48,7 +48,7 @@ The following roles are used to prepare a system. You can prepare your system in
 
 ## [Context](#context)
 
-This role is a part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.nl/) for further information.
+This role is a part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.github.io/) for further information.
 
 Here is an overview of related roles:
 
@@ -84,4 +84,4 @@ Apache-2.0
 
 ## [Author Information](#author-information)
 
-[Michael Buluma](https://buluma.co.ke/)
+[Michael Buluma](https://buluma.github.io/)

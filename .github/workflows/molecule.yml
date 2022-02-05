@@ -7,11 +7,13 @@ name: Ansible Molecule
 
 on:
   push:
-    tags_ignore:
+    branches:
+      - '**'
+    tags-ignore:
       - '*'
   pull_request:
   schedule:
-    - cron: '5 9,17 * * *'
+    - cron: '7 4 4 * *'
 
 jobs:
   lint:
@@ -33,21 +35,23 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          - image: "alpine"
+          - image: "alpine-openrc"
             tag: "latest"
           - image: "amazonlinux"
             tag: "latest"
-          - image: "debian"
-            tag: "jessie"
-          - image: "fedora"
+          - image: "enterpriselinux"
+            tag: "latest"
+          - image: "debian-systemd"
+            tag: "latest"
+          - image: "fedora-systemd"
             tag: "34"
-          - image: "fedora"
+          - image: "fedora-systemd"
             tag: "latest"
-          - image: "fedora"
+          - image: "fedora-systemd"
             tag: "rawhide"
-          - image: "docker-opensuse-systemd"
+          - image: "opensuse"
             tag: "latest"
-          - image: "ubuntu"
+          - image: "docker-ubuntu-systemd"
             tag: "bionic"
     steps:
       - name: checkout

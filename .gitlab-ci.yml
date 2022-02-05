@@ -12,31 +12,56 @@ molecule:
   script:
     - image=${image} tag=${tag} molecule test
   rules:
-    - if: $CI_COMMIT_REF_NAME == "master"
+    - if: $CI_COMMIT_REF_NAME == "main"
   retry: 1
   parallel:
     matrix:
-      - image: "alpine"
+      - image: "alpine-openrc"
         tag: "latest"
       - image: "amazonlinux"
         tag: "latest"
       - image: "enterpriselinux"
         tag: "latest"
-      - image: "debian"
+      - image: "debian-systemd"
         tag: "latest"
-      - image: "fedora"
+      - image: "fedora-systemd"
         tag: "34"
-      - image: "fedora"
+      - image: "fedora-systemd"
         tag: "latest"
-      - image: "fedora"
+      - image: "fedora-systemd"
         tag: "rawhide"
       - image: "opensuse"
         tag: "latest"
-      - image: "ubuntu"
+      - image: "docker-ubuntu-systemd"
+        tag: "bionic"
+
+testing:
+  script:
+    - image=${image} tag=${tag} molecule test
+  rules:
+    - if: $CI_COMMIT_REF_NAME == "testing"
+  retry: 1
+  parallel:
+    matrix:
+      - image: "alpine-openrc"
+        tag: "latest"
+      - image: "amazonlinux"
+        tag: "latest"
+      - image: "enterpriselinux"
+        tag: "latest"
+      - image: "debian-systemd"
+        tag: "latest"
+      - image: "fedora-systemd"
+        tag: "34"
+      - image: "fedora-systemd"
+        tag: "latest"
+      - image: "fedora-systemd"
+        tag: "rawhide"
+      - image: "opensuse"
+        tag: "latest"
+      - image: "docker-ubuntu-systemd"
         tag: "bionic"
 
 galaxy:
   script:
-    - ansible-galaxy role info ${CI_PROJECT_NAMESPACE} ${CI_PROJECT_NAME}
-  rules:
-    - if: $CI_COMMIT_TAG != null
+    - ansible-galaxy role info ${CI_PROJECT_NAMESPACE}.debug
