@@ -12,8 +12,9 @@ molecule:
   stage: build
   allow_failure: true
   script:
-    - if [ -f tox.ini ] ; then tox ; fi
-    - if [ ! -f tox.ini ] ; then molecule test ; fi
+    # - if [ -f tox.ini ] ; then tox ; fi
+    # - if [ ! -f tox.ini ] ; then molecule test ; fi
+    - molecule test
   rules:
     - if: $CI_COMMIT_REF_NAME == "main"
   retry: 1
