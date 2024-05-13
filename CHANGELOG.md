@@ -10,6 +10,10 @@
 - Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#17](https://github.com/buluma/ansible-role-debug/issues/17)
 - Update action [\#16](https://github.com/buluma/ansible-role-debug/issues/16)
 
+**Merged pull requests:**
+
+- Bump buluma/dependabot-auto-merge-action from 2.1.2 to 2.1.3 [\#22](https://github.com/buluma/ansible-role-debug/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [2.0.1](https://github.com/buluma/ansible-role-debug/tree/2.0.1) (2022-07-08)
 
 [Full Changelog](https://github.com/buluma/ansible-role-debug/compare/2.0.0...2.0.1)
