@@ -16,19 +16,16 @@ galaxy_info:
         - Candidate
     - name: EL
       versions:
-        - "8"
+        - "9"
     - name: Debian
       versions:
-        - bullseye
-    - name: Fedora
-      versions:
         - all
-    - name: opensuse
+    - name: Fedora
       versions:
         - all
     - name: Ubuntu
       versions:
-        - bionic
+        - all
 
   galaxy_tags:
     - debug
