@@ -5,4 +5,4 @@
 repository:
   description: Show variable per host.
   homepage: https://buluma.github.io/
-  topics: debug, ansible, molecule, tox, playbook
+  topics: debug, ansible, molecule, playbook
