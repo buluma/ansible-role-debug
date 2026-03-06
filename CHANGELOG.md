@@ -14,6 +14,7 @@
 
 **Merged pull requests:**
 
+- Bump docker/setup-buildx-action from 3 to 4 [\#25](https://github.com/buluma/ansible-role-debug/pull/25) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/dependabot-auto-merge-action from 2.1.2 to 2.1.3 [\#22](https://github.com/buluma/ansible-role-debug/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [2.0.1](https://github.com/buluma/ansible-role-debug/tree/2.0.1) (2022-07-08)
