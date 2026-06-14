@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-debug/tree/HEAD)
+## [26.6.0](https://github.com/buluma/ansible-role-debug/tree/26.6.0) (2026-06-14)
 
-[Full Changelog](https://github.com/buluma/ansible-role-debug/compare/2.0.1...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-debug/compare/2.0.1...26.6.0)
 
 **Closed issues:**
 
@@ -68,7 +68,7 @@
 
 ## [1.0.4](https://github.com/buluma/ansible-role-debug/tree/1.0.4) (2022-02-05)
 
-[Full Changelog](https://github.com/buluma/ansible-role-debug/compare/1.0.2...1.0.4)
+[Full Changelog](https://github.com/buluma/ansible-role-debug/compare/1.0.3...1.0.4)
 
 **Merged pull requests:**
 
@@ -77,13 +77,13 @@
 - Bump alstr/todo-to-issue-action from 2.3 to 4.6 [\#2](https://github.com/buluma/ansible-role-debug/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/galaxy-action from 1.0.1 to 1.1.0 [\#1](https://github.com/buluma/ansible-role-debug/pull/1) ([dependabot[bot]](https://github.com/apps/dependabot))
 
-## [1.0.2](https://github.com/buluma/ansible-role-debug/tree/1.0.2) (2022-02-02)
-
-[Full Changelog](https://github.com/buluma/ansible-role-debug/compare/1.0.3...1.0.2)
-
 ## [1.0.3](https://github.com/buluma/ansible-role-debug/tree/1.0.3) (2022-02-02)
 
-[Full Changelog](https://github.com/buluma/ansible-role-debug/compare/1.0.1...1.0.3)
+[Full Changelog](https://github.com/buluma/ansible-role-debug/compare/1.0.2...1.0.3)
+
+## [1.0.2](https://github.com/buluma/ansible-role-debug/tree/1.0.2) (2022-02-02)
+
+[Full Changelog](https://github.com/buluma/ansible-role-debug/compare/1.0.1...1.0.2)
 
 ## [1.0.1](https://github.com/buluma/ansible-role-debug/tree/1.0.1) (2022-01-30)
 
